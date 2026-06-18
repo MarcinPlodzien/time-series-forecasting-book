@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code or the accompanying book, please cite it as below."
+title: "Time Series Forecasting: A Dynamical-Systems Approach"
+abstract: >-
+  Companion code for the book "Time Series Forecasting: A Dynamical-Systems
+  Approach": dynamical-systems diagnostics (delay embeddings, Lyapunov exponents,
+  dimension estimates, recurrence analysis, surrogate testing) and an equal-budget
+  forecasting benchmark of linear, reservoir, deep, and quantum models across signals
+  spanning the predictability spectrum.
+type: software
+authors:
+  - family-names: "Płodzień"
+    given-names: "Marcin"
+repository-code: "https://github.com/MarcinPlodzien/time-series-forecasting-book"
+url: "https://github.com/MarcinPlodzien/time-series-forecasting-book"
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-18"
+keywords:
+  - "time series forecasting"
+  - "dynamical systems"
+  - "nonlinear time series analysis"
+  - "chaos"
+  - "delay embedding"
+  - "reservoir computing"
+  - "state space models"
+  - "neural ODE"
+  - "quantum reservoir computing"
+preferred-citation:
+  type: book
+  title: "Time Series Forecasting: A Dynamical-Systems Approach"
+  authors:
+    - family-names: "Płodzień"
+      given-names: "Marcin"
+  year: 2026
+  url: "https://github.com/MarcinPlodzien/time-series-forecasting-book"
