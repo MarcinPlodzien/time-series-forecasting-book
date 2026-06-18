@@ -1,0 +1,15 @@
+# Companion code for the book. Loosely pinned; any recent version works.
+# Install with:  pip install -r requirements.txt
+
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.6
+scikit-learn>=1.2        # used by some benchmark feature methods
+torch>=2.0               # benchmark neural models (RNN/LSTM/GRU/TCN/S4D/Mamba/Transformer/Neural ODE)
+
+# Optional:
+# jitcdde>=1.8           # only to regenerate the Mackey-Glass series from its DDE
+#                          (a precomputed series ships in data/; install this only
+#                          if you want to regenerate it from scratch)
+# statsmodels>=0.14      # only if you swap in its ARIMA; the bundled LinearAR
+#                          uses numpy least squares and needs nothing extra

@@ -1,0 +1,7 @@
+# Companion benchmark suite. Pinned-loosely; any recent version works.
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.2
+matplotlib>=3.6
+# statsmodels is optional (only used if you swap in its ARIMA); the bundled
+# LinearAR uses numpy least squares and needs nothing beyond the above.

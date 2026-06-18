@@ -51,6 +51,23 @@ the mismatched ones fail. See `benchmarks/README.md` for the benchmark details.
 ## Data
 
 All input series live under `data/` with provenance, checksums, and licensing in
-`data/README.md`. Public-domain and freely redistributable series are bundled;
-the S&P 500 daily close is fetched by a small script (`data/fetch_sp500.py`)
-rather than committed, because its redistribution terms are unclear.
+`data/README.md`, and every series the book analyzes is bundled so the code runs out
+of the box. The S&P 500 daily close can be refreshed to the latest date with
+`data/fetch_sp500.py`; the GOY turbulence series ships downsampled, with the
+full-resolution run reproducible from `case_studies/turbulence_goy/dynamics_goy_shell.py`.
+
+## Citation
+
+If you use this code or the accompanying book, please cite it. A `CITATION.cff` is
+included, so GitHub's **"Cite this repository"** button generates APA and BibTeX
+automatically. The BibTeX entry is:
+
+```bibtex
+@book{plodzien2026tsforecasting,
+  author = {P{\l}odzie{\'n}, Marcin},
+  title  = {Time Series Forecasting: A Dynamical-Systems Approach},
+  year   = {2026},
+  note   = {Companion code and benchmarks},
+  url    = {https://github.com/MarcinPlodzien/time-series-forecasting-book}
+}
+```

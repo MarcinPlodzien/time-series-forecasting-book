@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Marcin Plodzien
+Copyright (c) 2026 Marcin Płodzień
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+----------------------------------------------------------------------------
+NOTE ON DATA. This license covers the CODE only. The datasets under data/ are
+the property of their respective providers and carry their own terms; see
+data/README.md for the provenance and licensing of each series. The S&P 500
+series is not redistributed here and is fetched by data/fetch_sp500.py.
