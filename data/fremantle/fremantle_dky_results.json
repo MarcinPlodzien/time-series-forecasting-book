@@ -1,0 +1,23 @@
+{
+  "dataset": "Fremantle Sea Level (Monthly RLR)",
+  "n_points": 1511,
+  "year_range": "1897-2023",
+  "tau": 9,
+  "m": 4,
+  "lambda_1_rosenstein": 0.007856,
+  "full_spectrum": [
+    0.10417,
+    -0.07947,
+    -0.17287,
+    -0.34908
+  ],
+  "D_KY": 2.143,
+  "fnn_fractions": [
+    0.978,
+    0.5814,
+    0.1085,
+    0.0054
+  ],
+  "seasonal_amplitude_mm": 201.1,
+  "trend_mm_per_decade": 18.1
+}

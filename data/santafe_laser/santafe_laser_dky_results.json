@@ -1,0 +1,20 @@
+{
+  "dataset": "SantaFe Laser",
+  "n_points": 4000,
+  "tau": 2,
+  "m": 4,
+  "lambda_1_rosenstein": 0.01468,
+  "full_spectrum": [
+    0.06429,
+    -0.00439,
+    -0.38249,
+    -1.55417
+  ],
+  "D_KY": 2.157,
+  "fnn_fractions": [
+    0.2308,
+    0.0416,
+    0.0151,
+    0.0076
+  ]
+}

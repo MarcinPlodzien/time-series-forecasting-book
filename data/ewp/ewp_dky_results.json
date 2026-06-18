@@ -1,0 +1,23 @@
+{
+  "dataset": "England & Wales Precipitation (Monthly)",
+  "n_points": 3122,
+  "year_range": "1766-2026",
+  "tau": 3,
+  "m": 5,
+  "lambda_1_rosenstein": 0.001406,
+  "full_spectrum": [
+    0.73565,
+    -0.55816,
+    -0.76275,
+    -1.09033,
+    -1.78553
+  ],
+  "D_KY": 2.233,
+  "fnn_fractions": [
+    0.993,
+    0.7012,
+    0.1882,
+    0.0225,
+    0.0006
+  ]
+}

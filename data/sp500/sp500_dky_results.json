@@ -1,0 +1,23 @@
+{
+  "dataset": "S&P 500 Daily Returns",
+  "n_prices": 24671,
+  "n_returns_used": 5000,
+  "tau": 1,
+  "m": 5,
+  "lambda_1_rosenstein": 0.00096,
+  "full_spectrum": [
+    0.22068,
+    -0.18686,
+    -0.27808,
+    -0.37501,
+    -0.68674
+  ],
+  "D_KY": 2.122,
+  "fnn_fractions": [
+    0.9928,
+    0.7051,
+    0.2085,
+    0.0258,
+    0.0046
+  ]
+}

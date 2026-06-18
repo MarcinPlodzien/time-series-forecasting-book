@@ -1,0 +1,23 @@
+{
+  "dataset": "Central England Temperature (Monthly)",
+  "n_points": 4406,
+  "year_range": "1659-2026",
+  "tau": 1,
+  "m": 5,
+  "lambda_1_rosenstein": 0.000812,
+  "full_spectrum": [
+    0.13919,
+    -0.11149,
+    -0.21814,
+    -0.34726,
+    -0.66891
+  ],
+  "D_KY": 2.127,
+  "fnn_fractions": [
+    0.9138,
+    0.6974,
+    0.1908,
+    0.0172,
+    0.0009
+  ]
+}

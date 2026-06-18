@@ -1,0 +1,19 @@
+{
+  "dataset": "Nile River Annual Minima (Roda Nilometer)",
+  "n_points": 100,
+  "tau": 7,
+  "m": 3,
+  "hurst_exponent": 0.5,
+  "lambda_1_rosenstein": 0.054506,
+  "full_spectrum": [
+    0.16776,
+    0.02468,
+    -0.19435
+  ],
+  "D_KY": 2.99,
+  "fnn_fractions": [
+    0.6119,
+    0.1512,
+    0.0
+  ]
+}
